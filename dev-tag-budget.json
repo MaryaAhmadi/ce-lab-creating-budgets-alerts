@@ -1,0 +1,29 @@
+{
+  "BudgetName": "Dev-Environment-Budget",
+  "BudgetType": "COST",
+  "BudgetLimit": {
+    "Amount": "25",
+    "Unit": "USD"
+  },
+  "TimeUnit": "MONTHLY",
+  "TimePeriod": {
+    "Start": "2026-03-01T00:00:00Z",
+    "End": "2087-06-15T00:00:00Z"
+  },
+  "CostFilters": {
+    "TagKeyValue": ["user:Environment$development"]
+  },
+  "CostTypes": {
+    "IncludeTax": true,
+    "IncludeSubscription": true,
+    "UseBlended": false,
+    "IncludeRefund": false,
+    "IncludeCredit": false,
+    "IncludeUpfront": true,
+    "IncludeRecurring": true,
+    "IncludeOtherSubscription": true,
+    "IncludeSupport": true,
+    "IncludeDiscount": true,
+    "UseAmortized": false
+  }
+}
